@@ -1,42 +1,73 @@
-# Retail Sales Analysis Dashboard – Excel
+# Retail Sales Analysis & Executive Dashboard
 
 ## Project Overview
 
-An interactive retail sales analysis dashboard built using Microsoft Excel
-to analyze sales performance, profitability, customers, products, markets,
-and sales trends.
+An interactive retail sales analysis and executive dashboard built using Microsoft Excel to analyze sales performance, profitability, customers, products, markets, and sales trends.
 
-## Tools Used
+## Dashboard Preview
+
+![Retail Sales Dashboard](Dashboard.png)
+
+## Business Objectives
+
+- Monitor overall sales and profitability performance
+- Analyze sales trends over time
+- Identify high-performing categories, markets, and products
+- Understand customer segment performance
+- Evaluate the relationship between discounts and profitability
+- Provide an interactive dashboard for business decision-making
+
+## Tools & Technologies
 
 - Microsoft Excel
+- Power Query
 - Pivot Tables
 - Pivot Charts
+- Advanced Excel Formulas
 - Slicers
-- KPI Calculations
-- Data Cleaning
-- Excel Dashboard
+- Timelines
 
 ## Key KPIs
 
 - Total Sales
 - Total Profit
+- Profit Margin
 - Total Orders
 - Total Customers
-- Average Order Value
-- Profit Margin
+- Average Order Value (AOV)
+- Average Discount
 
-## Dashboard Analysis
+## Business Questions
 
-The dashboard provides insights into:
+- What are the overall sales and profit levels?
+- Which markets and regions perform best?
+- Which product categories contribute the most sales?
+- Which products are the top performers?
+- Which customer segments generate the most revenue?
+- How do discounts relate to profitability?
+- How do sales change over time?
 
-- Yearly and monthly sales trends
-- Sales by category
-- Sales by segment
-- Top 5 products by sales
-- Top 5 countries by sales
-- Interactive filtering using Category, Segment, and Market slicers
+## Project Workflow
 
-## Project Files
+1. Data preparation and profiling
+2. Data cleaning using Power Query
+3. KPI definition and calculation
+4. Data analysis using Pivot Tables
+5. Visualization using Pivot Charts
+6. Dashboard development
+7. Interactive filtering using slicers
 
-- `Retail_Sales_Analysis.xlsx` – Complete Excel project
-- `Dashboard.png` – Dashboard preview
+## Repository Structure
+
+```text
+Retail-Sales-Analysis-Excel/
+│
+├── README.md
+├── Dashboard.png
+├── Retail-Sales-Analysis-Dashboard.xlsx
+│
+└── Documentation/
+    ├── Business-Requirements.md
+    ├── KPI-Definitions.md
+    ├── Data-Cleaning-Strategy.md
+    └── Dashboard-Design.md
